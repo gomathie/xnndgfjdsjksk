@@ -1,1 +1,5 @@
-document.getElementById("lastUpdated").innerHTML = "Last updated on " + document.lastUpdated;
+document.addEventListener("DOMContentLoaded", function() {
+    var lastUpdated = document.querySelector("#lastUpdated");
+    lastUpdated.innerHTML = document.lastModified;
+  });
+  
